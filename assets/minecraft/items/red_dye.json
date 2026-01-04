@@ -1,0 +1,96 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/red_dye"
+        },
+        "cases": [
+            {
+                "when": "clocktown_decal_waves",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_waves"
+                }
+            },
+            {
+                "when": "clocktown_decal_coloredstones",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_coloredstones"
+                }
+            },
+            {
+                "when": "clocktown_decal_plaza",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_plaza"
+                }
+            },
+            {
+                "when": "clocktown_decal_plaza_rimless",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_plaza_rimless"
+                }
+            },
+            {
+                "when": "clocktown_decal_treasureshopposter",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_treasureshopposter"
+                }
+            },
+            {
+                "when": "clocktown_decal_constructionposter",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_constructionposter"
+                }
+            },
+            {
+                "when": "clocktown_decal_spikes",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_spikes"
+                }
+            },
+            {
+                "when": "clocktown_decal_spikes_short",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_spikes_short"
+                }
+            },
+            {
+                "when": "townhall_banner",
+                "model": {
+                    "type": "model",
+                    "model": "item/townhall_banner"
+                }
+            },
+            {
+                "when": "townhall_banner_small",
+                "model": {
+                    "type": "model",
+                    "model": "item/townhall_banner_small"
+                }
+            },
+            {
+                "when": "clocktown_decal_townhall",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_townhall"
+                }
+            },
+            {
+                "when": "clocktown_decal_townhall_cutout",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_townhall_cutout"
+                }
+            }
+        ]
+    }
+}

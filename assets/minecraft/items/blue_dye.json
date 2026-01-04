@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/blue_dye"
+        },
+        "cases": [
+            {
+                "when": "clocktown_chestshop_lock",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_chestshop_lock"
+                }
+            },
+            {
+                "when": "clocktown_flags",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_flags"
+                }
+            },
+            {
+                "when": "clocktown_flags_empty",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_flags_empty"
+                }
+            },
+            {
+                "when": "clocktown_firepot",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_firepot"
+                }
+            },
+            {
+                "when": "clocktown_mailbox",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_mailbox"
+                }
+            }
+        ]
+    }
+}
