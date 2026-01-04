@@ -64,20 +64,6 @@
                 }
             },
             {
-                "when": "townhall_banner",
-                "model": {
-                    "type": "model",
-                    "model": "item/townhall_banner"
-                }
-            },
-            {
-                "when": "townhall_banner_small",
-                "model": {
-                    "type": "model",
-                    "model": "item/townhall_banner_small"
-                }
-            },
-            {
                 "when": "clocktown_decal_townhall",
                 "model": {
                     "type": "model",
@@ -89,6 +75,20 @@
                 "model": {
                     "type": "model",
                     "model": "item/clocktown_decal_townhall_cutout"
+                }
+            },
+            {
+                "when": "clocktown_decal_z",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_z"
+                }
+            },
+            {
+                "when": "clocktown_decal_z_short",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_z_short"
                 }
             }
         ]

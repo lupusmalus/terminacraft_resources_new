@@ -41,6 +41,20 @@
                     "type": "model",
                     "model": "item/clocktown_mailbox"
                 }
+            },
+            {
+                "when": "townhall_banner",
+                "model": {
+                    "type": "model",
+                    "model": "item/townhall_banner"
+                }
+            },
+            {
+                "when": "townhall_banner_small",
+                "model": {
+                    "type": "model",
+                    "model": "item/townhall_banner_small"
+                }
             }
         ]
     }
