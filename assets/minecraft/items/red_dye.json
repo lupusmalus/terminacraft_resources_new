@@ -90,6 +90,13 @@
                     "type": "model",
                     "model": "item/clocktown_decal_z_short"
                 }
+            },
+            {
+                "when": "clocktown_decal_newspaper",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_newspaper"
+                }
             }
         ]
     }
