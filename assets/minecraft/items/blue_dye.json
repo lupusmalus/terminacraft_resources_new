@@ -55,6 +55,20 @@
                     "type": "model",
                     "model": "item/townhall_banner_small"
                 }
+            },
+            {
+                "when": "clocktown_bell_beam",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_bell_beam"
+                }
+            },
+            {
+                "when": "clocktown_bell_joint",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_bell_joint"
+                }
             }
         ]
     }
