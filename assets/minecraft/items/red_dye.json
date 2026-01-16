@@ -111,6 +111,13 @@
                     "type": "model",
                     "model": "item/clocktown_target"
                 }
+            },
+            {
+                "when": "clocktown_vines",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_vines"
+                }
             }
         ]
     }
