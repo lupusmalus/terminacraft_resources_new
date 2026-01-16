@@ -97,6 +97,13 @@
                     "type": "model",
                     "model": "item/clocktown_decal_newspaper"
                 }
+            },
+            {
+                "when": "clocktown_decal_poster1",
+                "model": {
+                    "type": "model",
+                    "model": "item/clocktown_decal_poster1"
+                }
             }
         ]
     }
